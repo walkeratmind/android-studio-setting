@@ -1,0 +1,5 @@
+<application>
+  <component name="PinDeviceService">
+    <option name="pinnedDevices" value="[{&quot;id&quot;:&quot;192.168.88.26:5555&quot;,&quot;serialNumber&quot;:&quot;RZ8M705941D&quot;,&quot;name&quot;:&quot;samsung SM-M405F&quot;,&quot;address&quot;:&quot;192.168.88.26&quot;,&quot;androidVersion&quot;:&quot;10&quot;,&quot;apiLevel&quot;:&quot;29&quot;}]" />
+  </component>
+</application>
