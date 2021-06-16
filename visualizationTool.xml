@@ -3,6 +3,7 @@
     <option name="state">
       <GlobalState>
         <option name="firstTimeOpen" value="false" />
+        <option name="showDecoration" value="true" />
       </GlobalState>
     </option>
   </component>
