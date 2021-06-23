@@ -4,6 +4,7 @@
       <mapping ext="webp" type="Image" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
+      <mapping pattern=".ideavimrc" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
