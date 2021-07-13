@@ -5,6 +5,9 @@
     <option name="USE_LIGATURES" value="true" />
     <option name="SECONDARY_FONT_FAMILY" value="Fira Code" />
   </component>
+  <component name="EditorSettings">
+    <option name="ENABLE_RENDERED_DOC" value="true" />
+  </component>
   <component name="TodoConfiguration">
     <pattern pattern="\b(todo|fixme)\b.*" />
   </component>
