@@ -1,0 +1,13 @@
+<templateSet group="AndroidKotlin">
+  <template name="hiltvm" value="@dagger.hilt.android.lifecycle.HiltViewModel&#10;class $NAME$ @javax.inject.Inject constructor(&#10;$PARAM$&#10;) : androidx.lifecycle.ViewModel() {&#10;    $END$&#10;}" description="Creates a standard hilt ViewModel" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="vmstatefunc" value="private val _$NAME$ = androidx.compose.runtime.mutableStateOf&lt;$TYPE$&gt;($INITIAL_VALUE$)&#10;val $NAME$: androidx.compose.runtime.State&lt;$TYPE$&gt; = _$NAME$&#10;&#10;fun $FUNC$($PARAM$: $TYPE$) {&#10;    _$NAME$.value = $PARAM$&#10;}" description="Creates a mutable and immutable state" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="INITIAL_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FUNC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+</templateSet>
